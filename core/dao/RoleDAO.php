@@ -14,7 +14,7 @@ class RoleDAO
     function __construct()
     {
         parent::__construct();
-        $this->model = '\bisikecms\core\model\FileTypes';
+        $this->model = '\cms\core\model\Role';
         $this->table = 'roles';
         $this->id_column = 'role_id';
         $this->table_fields = array('role_id', 'role_name');
