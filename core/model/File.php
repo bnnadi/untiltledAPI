@@ -60,4 +60,34 @@ class File extends Model
         $messages = array();
         return $messages;
     }
+
+    public function isUploadTooLarge($getPost, $getFiles, $getServerValue)
+    {
+    }
+
+    public function watch($cms)
+    {
+    }
+
+    public function view()
+    {
+    }
+
+    public function canDownload($user)
+    {
+    }
+
+    public function download()
+    {
+    }
+
+
+    public function uploadFile($uploaded_file)
+    {
+    }
+
+    public function uploadFiles($getFiles, $getPost)
+    {
+    }
+
 }

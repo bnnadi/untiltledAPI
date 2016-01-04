@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6af797-2043-4438-bfcf-29ade9e7e1da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/dao/PermissionsDAO.php" afterPath="$PROJECT_DIR$/core/dao/PermissionsDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/dao/RoleDAO.php" afterPath="$PROJECT_DIR$/core/dao/RoleDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/dao/StatusDAO.php" afterPath="$PROJECT_DIR$/core/dao/StatusDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/model/Permission.php" afterPath="$PROJECT_DIR$/core/model/Permission.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/model/Status.php" afterPath="$PROJECT_DIR$/core/model/Status.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/utilities/Emailer.php" afterPath="$PROJECT_DIR$/core/utilities/Emailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/utilities/Location.php" afterPath="$PROJECT_DIR$/core/utilities/Location.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/model/File.php" afterPath="$PROJECT_DIR$/core/model/File.php" />
     </list>
     <ignored path="untiltledAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FilesController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FilesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/controller/FilesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5342857">
-              <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+            <state vertical-scroll-proportion="-6.0">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
               </folding>
@@ -42,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="File.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="File.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/model/File.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.8461537">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.70857143">
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
               <folding>
                 <element signature="e#118#143#0#PHP" expanded="true" />
               </folding>
@@ -91,7 +86,6 @@
         <option value="$PROJECT_DIR$/core/model/FileType.php" />
         <option value="$PROJECT_DIR$/core/dao/FilesTypesDAO.php" />
         <option value="$PROJECT_DIR$/core/model/Role.php" />
-        <option value="$PROJECT_DIR$/core/model/File.php" />
         <option value="$PROJECT_DIR$/core/model/User.php" />
         <option value="$PROJECT_DIR$/core/dao/DAO.php" />
         <option value="$PROJECT_DIR$/core/dao/cms/core/dao/PermissionsDAO.php" />
@@ -103,6 +97,7 @@
         <option value="$PROJECT_DIR$/core/utilities/Location.php" />
         <option value="$PROJECT_DIR$/core/utilities/Emailer.php" />
         <option value="$PROJECT_DIR$/core/controller/FilesController.php" />
+        <option value="$PROJECT_DIR$/core/model/File.php" />
       </list>
     </option>
   </component>
@@ -662,22 +657,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/model/File.php">
+    <entry file="file://$PROJECT_DIR$/core/controller/FilesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.8461537">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
-            <element signature="e#118#143#0#PHP" expanded="true" />
+            <element signature="e#6#94#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/controller/FilesController.php">
+    <entry file="file://$PROJECT_DIR$/core/model/File.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5342857">
-          <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.70857143">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
-            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="e#118#143#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
