@@ -9,6 +9,8 @@
 namespace cms;
 
 
+use cms\core\model\Role;
+
 class CMS
 {
     var $server;
@@ -229,7 +231,7 @@ class CMS
     }
     function canUserAccessPage($user, $page)
     {
-        $role = new \cms\core\model\Role();
+        $role = new Role();
         $role->role_id = $user->user_role_id;
         if ($role->isRoleInRoleGroup($page['page_role_group_id']))
             return true;
