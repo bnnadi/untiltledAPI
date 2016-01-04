@@ -8,6 +8,7 @@
 
 namespace cms\core\dao;
 
+use cms\core\utilities\Response;
 use PDO;
 
 class DAO
@@ -165,7 +166,7 @@ class DAO
         }
         $query .= ")";
         $pdo_statement = $this::getConnection()->pdo->prepare($query);
-        $response = new \bisikecms\core\utilities\Response();
+        $response = new Response();
         try
         {
             $result = $pdo_statement->execute($params);
@@ -208,7 +209,7 @@ class DAO
         $query .= " WHERE {$this->table}.{$this->id_column} = :id";
         $params['id'] = $model->$id_column;
         $pdo_statement = $this::getConnection()->pdo->prepare($query);
-        $response = new \bisikecms\core\utilities\Response();
+        $response = new Response();
         try
         {
             $result = $pdo_statement->execute($params);
