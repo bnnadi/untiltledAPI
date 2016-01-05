@@ -61,33 +61,44 @@ class File extends Model
         return $messages;
     }
 
-    public function isUploadTooLarge($getPost, $getFiles, $getServerValue)
+    public function isUploadTooLarge($post, $files, $serverValue)
     {
+        if (isset($serverValue) && convert_to_bytes(ini_get('post_max_size')) > (int) $serverValue)
+        {
+           return true;
+        }
+        return false;
     }
 
     public function watch($cms)
     {
+
     }
 
     public function view()
     {
+
     }
 
     public function canDownload($user)
     {
+
     }
 
     public function download()
     {
+
     }
 
 
     public function uploadFile($uploaded_file)
     {
+
     }
 
     public function uploadFiles($getFiles, $getPost)
     {
+
     }
 
 }
