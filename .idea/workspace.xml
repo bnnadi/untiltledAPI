@@ -37,13 +37,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="File.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="File.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/model/File.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.36450383">
               <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
               <folding>
                 <element signature="e#118#143#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/model/Contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.192307">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactDAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/dao/ContactDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAO.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/dao/DAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68">
+              <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
+              <folding>
+                <element signature="e#121#153#0#PHP" expanded="true" />
+                <marker date="1451938484418" expanded="true" signature="1890:1904" placeholder="SELECT * FRO... $" />
+                <marker date="1451938484418" expanded="true" signature="3423:3437" placeholder="SELECT * FRO... $" />
+                <marker date="1451938484418" expanded="true" signature="3860:3874" placeholder="SELECT * FRO... $" />
+                <marker date="1451938484418" expanded="true" signature="4800:4867" placeholder="INSERT INTO $... " />
+                <marker date="1451938484418" expanded="true" signature="5781:5795" placeholder="SELECT * FRO... $" />
+                <marker date="1451938484418" expanded="true" signature="6403:6428" placeholder="UPDATE ${{$t... " />
+                <marker date="1451938484418" expanded="true" signature="7500:7572" placeholder="DELETE FROM " />
+                <marker date="1451938484418" expanded="true" signature="7837:7849" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -98,6 +138,8 @@
         <option value="$PROJECT_DIR$/core/utilities/Emailer.php" />
         <option value="$PROJECT_DIR$/core/controller/FilesController.php" />
         <option value="$PROJECT_DIR$/core/model/File.php" />
+        <option value="$PROJECT_DIR$/core/model/Contact.php" />
+        <option value="$PROJECT_DIR$/core/dao/ContactDAO.php" />
       </list>
     </option>
   </component>
@@ -185,6 +227,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untiltledAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untiltledAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untiltledAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untiltledAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,6 +405,34 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/core/controller/FilesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/model/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#118#143#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMS.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
@@ -692,6 +798,40 @@
           <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
           <folding>
             <element signature="e#118#143#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/model/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.192307">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/dao/ContactDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/dao/DAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68">
+          <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
+          <folding>
+            <element signature="e#121#153#0#PHP" expanded="true" />
+            <marker date="1451938484418" expanded="true" signature="1890:1904" placeholder="SELECT * FRO... $" />
+            <marker date="1451938484418" expanded="true" signature="3423:3437" placeholder="SELECT * FRO... $" />
+            <marker date="1451938484418" expanded="true" signature="3860:3874" placeholder="SELECT * FRO... $" />
+            <marker date="1451938484418" expanded="true" signature="4800:4867" placeholder="INSERT INTO $... " />
+            <marker date="1451938484418" expanded="true" signature="5781:5795" placeholder="SELECT * FRO... $" />
+            <marker date="1451938484418" expanded="true" signature="6403:6428" placeholder="UPDATE ${{$t... " />
+            <marker date="1451938484418" expanded="true" signature="7500:7572" placeholder="DELETE FROM " />
+            <marker date="1451938484418" expanded="true" signature="7837:7849" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
